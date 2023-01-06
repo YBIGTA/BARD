@@ -1,0 +1,13 @@
+* {
+  font-family: 'Pretendard', sans-serif;
+}
+
+@font-face {
+  font-family: 'Rochester';
+  src: url('./assets/fonts/Rochester-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Aladin';
+  src: url('./assets/fonts/Aladin-Regular.ttf');
+}
