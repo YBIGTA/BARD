@@ -3,6 +3,7 @@ package config
 import (
 	"log"
 	"os"
+	"strings"
 
 	"gopkg.in/yaml.v2"
 )
@@ -32,13 +33,13 @@ type GPT3Config struct {
 var StoryGenerationConfig *StoryGenerationPromptConfig
 var StorySummarizationConfig *StorySummarizationPromptConfig
 
-func LoadGPT3Config() {
+func LoadGPT3Config(rootPath string) {
 	var config *GPT3Config
 
-	configPath := os.Getenv("GPT3_CONFIG_PATH")
+	configPath := strings.Join([]string{rootPath, "gpt3.yaml"}, "/")
 	log.Default().Println("Loading GPT3 config from", configPath)
 
-	yamlFile, err := os.ReadFile(os.Getenv("GPT3_CONFIG_PATH"))
+	yamlFile, err := os.ReadFile(configPath)
 	if err != nil {
 		panic(err)
 	}

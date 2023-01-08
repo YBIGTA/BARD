@@ -49,7 +49,9 @@ func main() {
 
 	util.InitializeBLIP()
 	util.InitializeDALLE()
-	config.LoadGPT3Config()
+
+	rootDir, _ := os.Getwd()
+	config.LoadGPT3Config(rootDir)
 
 	log.Default().Println("GPT3 Config Loaded")
 
