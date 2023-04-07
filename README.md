@@ -16,7 +16,10 @@ BARD uses [`BLIP`](https://github.com/salesforce/BLIP) alongside [`GPT-3`](https
 | [지영주]() | App Design, Prompt Engineering |
 
 ## Service Overview
-
+![1 mp4](https://user-images.githubusercontent.com/75557859/230576631-46d0a840-e3c8-4b43-89bb-7f50e0fd416e.gif)
+![2 mp4](https://user-images.githubusercontent.com/75557859/230576644-270a3ffd-6caf-431a-8e48-02d483069e7b.gif)
+![3 mp4](https://user-images.githubusercontent.com/75557859/230576660-2168a4fe-48db-449b-a09b-f52b283687f4.gif)
+![4 mp4](https://user-images.githubusercontent.com/75557859/230576681-de39e0a8-463d-48fe-b748-7c5813834d19.gif)
 
 ## Service Pipeline
 ![spaces_IbP28uelRYYLg8V6r8M6_uploads_KtZypfsmEGQ4skGpWM1Y_Untitled 15](https://user-images.githubusercontent.com/75557859/230571799-48aaf45f-45c5-46d7-9ab9-80dcaf7ee8a7.png)
