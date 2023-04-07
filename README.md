@@ -1,2 +1,4 @@
-# BARD
-와이빅타 2022-2 컨퍼런스 BARD
+# BARD - Beyond Author, Recomposing your Day
+YBIGTA 2022-2 Conference 1st Place, BARD
+
+## Introduction
